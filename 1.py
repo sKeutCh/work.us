@@ -6,3 +6,4 @@ elif a < b:
     print('a<b')
 else:
     print('Числа равны')
+    
