@@ -1,4 +1,4 @@
-x = str(input())
+x = input()
 if x == x[::-1]:
     print('да')
 else:
