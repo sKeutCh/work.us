@@ -8,4 +8,4 @@ z = f - d
 if z == 0:
     print('делить на ноль нельзя')
 else:
-    print(x/z)
+    print(x / z)
