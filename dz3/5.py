@@ -1,9 +1,9 @@
-def arifm(x):
-    d = sum(x) / len(x)
+from a import fun
+
+def ar(k):
+    d = sum(k) / len(k)
     print("Средн. арифм.", d)
-n = input()
-b = []
-while n != '':
-    b.append(float(n))
-    n = input()
-arifm(b)
+
+
+k = fun()
+print(k)

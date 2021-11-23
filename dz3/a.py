@@ -5,6 +5,3 @@ def fun():
         k.append(n)
         n = input()
     return k
-
-
-print(fun())

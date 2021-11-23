@@ -1,15 +1,14 @@
 def season(n):
     if 1 <= n <= 2 or n == 12:
-        print('winter')
+        return ('winter')
     elif 3 <= n <= 5:
-        print('spring')
+        return ('spring')
     elif 6 <= n <= 8:
-        print('summer')
+        return ('summer')
     elif 9 <= n <= 11:
-        print('autumn')
+        return ('autumn')
     else:
-        print('no season')
-    return(n)
+        return ('no season')
 
 
 n = int(input())

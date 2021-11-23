@@ -1,4 +1,4 @@
-from dz3 import fun
+from a import fun
 
 def f(k):
     print('Элемент', ':', 'Частота')
