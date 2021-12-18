@@ -19,3 +19,5 @@ assert bin_search([1, 2, 3, 4, 5], 7) is None
 assert bin_search([42, 42, 42, 42, 42], 42) == 0
 assert bin_search([42, 42, 42, 42, 43], 43) == 4
 assert bin_search([-2, -2, -1, 0, 1, 1, 2, 2], 1) == 4
+assert bin_search([0], 0) == 0
+assert bin_search([0], 1) is None
