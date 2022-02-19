@@ -7,9 +7,7 @@ class Fraction:
         self.top = int(input("Введите числитель: "))
         self.bottom = int(input("Введите знаменатель: "))
         if self.bottom == 0:
-            print("error")
-        else:
-            self.bottom != 0
+            raise ValueError("Знаменатель не равен 0")
 
     def __str__(self):
         return str(self.top)+"/"+str(self.bottom)
