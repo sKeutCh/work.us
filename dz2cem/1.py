@@ -7,7 +7,7 @@ class Fraction:
         self.top = int(input("Введите числитель: "))
         self.bottom = int(input("Введите знаменатель: "))
         if self.bottom == 0:
-            print ("error")
+            print("error")
         else:
             self.bottom != 0
 
