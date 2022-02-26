@@ -22,6 +22,3 @@ print(b2)
 b3 = Fraction()
 b3.input()
 print(b3)
-
-
-
