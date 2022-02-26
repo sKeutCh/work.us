@@ -10,8 +10,8 @@ class Fraction:
             raise ValueError("Знаменатель не равен 0")
 
     def __str__(self):
-        return str(self.top)+"/"+str(self.bottom)
-
+        return f"{self.top}/{self.bottom}"
+    
 
 b1 = Fraction()
 print(b1)
