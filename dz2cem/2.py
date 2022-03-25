@@ -17,7 +17,7 @@ class Fraction:
 
     def reduce(self):
         p = math.gcd(self.top, self.bottom)
-        return f"{(self.bottom / p)}/{(self.bottom / p)}"
+        return str(self.bottom / p)+'/'+str(self.bottom / p)
 
 
 p = Fraction()
