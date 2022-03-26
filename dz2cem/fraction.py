@@ -1,3 +1,6 @@
+import math
+
+
 class Fraction:
     def __init__(self, nume=0, denom=1):
         self.top = nume
@@ -12,13 +15,10 @@ class Fraction:
     def __str__(self):
         return str(self.top)+"/"+str(self.bottom)
 
+    def __eq__(self, other) -> bool:
+        return self.top == other.top and self.bottom == other.bottom
 
-b1 = Fraction()
-print(b1)
-
-b2 = Fraction(3, 4)
-print(b2)
-
-b3 = Fraction()
-b3.input()
-print(b3)
+    def reduce(self):
+        p = math.gcd(self.top, self.bottom)
+        self.top = self.top // p
+        self.bottom = self.top // p
